@@ -1,5 +1,5 @@
 
-const ListaClientes = () => fetch("http://node-tutorial-production.up.railway.app/getAllAdmin")
+const ListaClientes = () => fetch("https://node-tutorial-production.up.railway.app/getAllAdmin")
 .then((data) => data.json());
 
 const ListaProductos = () => fetch("https://node-tutorial-production.up.railway.app/getAllProductos")
