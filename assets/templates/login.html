@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normal/header.css">
+    <link rel="stylesheet" href="../css/normal/inputs.css">
+    <link rel="stylesheet" href="../css/responsive/responsive__header.css">
+    <link rel="stylesheet" href="../css/normal/footer.css">
+    <link rel="stylesheet" href="../css/responsive/responsive__footer.css">
+    <link rel="stylesheet" href="../css/normal/main__login.css">
+    <link rel="stylesheet" href="../css/responsive/responsive__main__login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav">
+            <div class="container">
+                <img class="imgControl" src="../img/control.png"/>
+                <a href="../../index.html"><div id="divAluraGeek">
+                    <label class="textoAluraGeek">Alura</label><label class="textoAluraGeek">Geek</label>
+                </div></a>
+            </div>
+            <div class="container" id="containerBusqueda">
+                <div class="containerBusqueda">
+                    <input class="inputBuscar" type="text" placeholder="¿Qué deseas buscar?">
+                    <div class="btn">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>              
+            </div>      
+        </nav>
+    </header>
+    <main>
+        <div class="divIniciarSesion">
+            <label class="labelIniciarSesion">Iniciar Sesion</label>
+            <div class="input-container">
+                <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
+                <label class="input-label" for="email">Escriba su correo</label>
+                <span class="input-message-error">Este campo no es valido</span>
+             </div>
+            <div class="input-container">
+                <input name="password" id="password" class="input" type="password" placeholder="Contraseña" required data-tipo="password" >
+                <label class="input-label" for="password">Escriba su contraseña</label>
+                <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div id="divBtnEntrar" class="input-container">
+                <button id="btnEntrar" type="submit" class="btnEnviar">Entrar</button>
+                <span class="input-message-error"></span>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div id="fondoAzul">
+            <div id="containerRodapie"> 
+                <div class="divLogoTexto">
+                    <div class="divLogoRodapie">
+                        <img class="imgControl" src="../img/control.png"/>
+                        <div id="divAluraGeek">
+                            <label class="textoAluraGeek">Alura</label><label class="textoAluraGeek">Geek</label>
+                        </div>
+                    </div>
+                    <div class="divTextoRodapie">
+                        <label for="" class="textoRodapie">Quienes somos</label>
+                        <label for="" class="textoRodapie">Politica de privacidad</label>
+                        <label for="" class="textoRodapie">Programa de fidelidad</label>
+                        <label for="" class="textoRodapie">Nuestras Tiendas</label>
+                        <label for="" class="textoRodapie">Quiero ser franquiciado</label>
+                        <label for="" class="textoRodapie">Anuncie aqui</label>
+                    </div>
+                </div>
+                <div class="divFormularioRodapie">
+                    <form action="registro_concluido.html" id="form" class="form">
+                        <label>Habla con nosotros</label>
+                        <div class="input-container">
+                            <input name="name" id="inputNombre" class="input" type="text" placeholder="Asunto" required pattern="[\s\S]{0,50}" data-tipo="nombre">
+                            <label class="input-label" for="name">Nombre</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="textarea-container">
+                            <!-- <input name="name" id="Mensaje" class="input" type="text" placeholder="Mensaje" required data-tipo="mensaje"> -->
+                            <textarea name="name" id="Mensaje" class="textarea" type="text" placeholder="Mensaje" required pattern="[\s\S]{0,10}" data-tipo="mensaje"></textarea>
+                            <label class="textarea-label" for="name">Escribe tu mensaje</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <button type="submit" class="btnEnviar">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="fondoGris">
+            <label>Desarrollado por Eduardo Larios Juseppe</label>
+            <label>2022</label>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/acf9a5f092.js" crossorigin="anonymous"></script>
+    <script type="module" src="../js/validarInputs/app2.js"></script>
+    <script src="../js/header/header.js"></script>
+    <!-- <script src="../js/admin.js"></script>-->
+    <script type="module" src="../js/controllers/login.controller.js"></script>
+</body>
+</html>

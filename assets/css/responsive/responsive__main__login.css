@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) and (max-width: 1399px){
+    .divIniciarSesion{
+        width: 40%;
+    }
+    #btnEntrar{
+        width: 50%;
+        
+    }
+    #divBtnEntrar{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+    main{
+        height: auto;
+        padding: 1rem 0;
+    }
+    .divIniciarSesion{
+        width: 80%;
+        gap: 0.25rem;
+    }
+    .labelIniciarSesion{
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    #btnEntrar{
+        width: 50%;
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+    #divBtnEntrar{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+}

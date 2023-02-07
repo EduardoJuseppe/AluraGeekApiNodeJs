@@ -1,0 +1,203 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "password": "adminalura",
+      "email": "admin@alurageek.com"
+    }
+  ],
+  "productos": [
+    {
+      "url": "https://www.mundopeliculas.tv/wp-content/uploads/2021/04/star-wars-1.jpg",
+      "categoria": "Star Wars",
+      "nombreProducto": "Darth Vader",
+      "precio": "44.44",
+      "descripcion": "Descripcion 1",
+      "id": "bc653a6e-a898-42db-9a0b-60798e40b33d"
+    },
+    {
+      "url": "https://media.revistagq.com/photos/604b2f499fc97c95e82c1c14/16:9/w_2560%2Cc_limit/2101913.jpg",
+      "categoria": "Star Wars",
+      "nombreProducto": "Bien vs Mal",
+      "precio": "444.44",
+      "descripcion": "Descripcion 1",
+      "id": "c41d4cd4-caf8-4225-8ca8-40038aa25561"
+    },
+    {
+      "url": "https://eloutput.com/wp-content/uploads/2020/09/the-mandalorian-baby-yoda.jpg",
+      "categoria": "Star Wars",
+      "nombreProducto": "Mandalorian",
+      "precio": "4444.44",
+      "descripcion": "Descripcion 1",
+      "id": "161eb39f-bdec-472b-82d6-239e201ad3ae"
+    },
+    {
+      "url": "https://img.pccomponentes.com/pcblog/3249/ideas-regalo-star-wars.jpg",
+      "categoria": "Star Wars",
+      "nombreProducto": "Clones",
+      "precio": "22.22",
+      "descripcion": "Artesanía y detalles de alta calidad: Los fanáticos y coleccionistas de Star Wars pueden mostrar esta figura altamente articulada",
+      "id": "09045445-0ec8-4998-9601-f81a7fb7ad5d"
+    },
+    {
+      "url": "https://as01.epimg.net/meristation/imagenes/2022/05/19/noticias/1652944408_523527_1652944740_noticia_normal.jpg",
+      "categoria": "Star Wars",
+      "nombreProducto": "Baby Yoda",
+      "precio": "222.22",
+      "descripcion": "Producto oficial de Star Wars: este juguete para perros de Star Wars es un artículo con licencia oficial de la mercancía Star Wars de Disney Consumer Products",
+      "id": "5ba93bab-9caa-473c-a0fe-8451a6a69811"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/bd/94/5b/bd945b4aa35d8c774e2492942d7607e1.jpg",
+      "categoria": "Star Wars",
+      "nombreProducto": "Estrella de la muerte",
+      "precio": "66.66",
+      "descripcion": "Descripcion 1",
+      "id": "def627bf-ef7e-4421-9845-4d8d885e07c7"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/71/00/35/7100356f0500200e4832919e53132ef0.jpg",
+      "categoria": "Star Wars",
+      "nombreProducto": "Arthu",
+      "precio": "666.66",
+      "descripcion": "Descripcion 1",
+      "id": "d527e844-a305-4f79-94df-619601d56975"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/54/69/31/546931000cd6b4679c7fe23a2eb66458.jpg",
+      "categoria": "Star Wars",
+      "nombreProducto": "Nave guerra de las galaxias parte 1",
+      "precio": "6666.66",
+      "descripcion": "Descripcion 1",
+      "id": "1971a68f-f64e-4e7a-8ed2-a3832328168e"
+    },
+    {
+      "url": "https://i5.walmartimages.com/asr/12870b37-2928-4748-8e87-868e44ed218d.89acba7601d9b7c641d3c880ce173893.jpeg",
+      "categoria": "Consolas",
+      "nombreProducto": "Xbox Serie X",
+      "precio": "44.44",
+      "descripcion": "Descripcion 1",
+      "id": "7bfc0076-d820-4b63-95e3-1cf9a96cc32c"
+    },
+    {
+      "url": "https://www.muycomputer.com/wp-content/uploads/2020/07/PS5-Negra-Black-Edition-1000x600.jpg",
+      "categoria": "Consolas",
+      "nombreProducto": "PlayStation 5 Black Edition",
+      "precio": "444.44",
+      "descripcion": "Descripcion 1",
+      "id": "813093fe-fbdc-47d8-950b-d8e573867bbb"
+    },
+    {
+      "url": "https://www.muycomputer.com/wp-content/uploads/2021/01/nintendo-switch-mario.jpg",
+      "categoria": "Consolas",
+      "nombreProducto": "Switch Mario Bros",
+      "precio": "4444.44",
+      "descripcion": "Descripcion 1",
+      "id": "3f4606ac-707f-417b-be84-1f46e5a8e133"
+    },
+    {
+      "url": "https://assets.reedpopcdn.com/digitalfoundry-2017-microsoft-xbox-one-x-review-1509716579892.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/digitalfoundry-2017-microsoft-xbox-one-x-review-1509716579892.jpg",
+      "categoria": "Consolas",
+      "nombreProducto": "Xbox One",
+      "precio": "22.22",
+      "descripcion": "Descripcion 1",
+      "id": "d2a87a94-f331-454f-ad90-a8bb35e92b2e"
+    },
+    {
+      "url": "https://www.techgames.com.mx/wp-content/uploads/2021/08/Xbox-Series-X-Halo-Infinite-Edicion-limitada-precio.jpg",
+      "categoria": "Consolas",
+      "nombreProducto": "Xbox Serie x Halo",
+      "precio": "2222.22",
+      "descripcion": "Descripcion 1",
+      "id": "8f4e7593-db58-4c93-8d1e-abfa811c11cf"
+    },
+    {
+      "url": "https://static.onecms.io/wp-content/uploads/sites/6/2016/02/uncharted-4.jpg",
+      "categoria": "Consolas",
+      "nombreProducto": "PlayStation 4 Uncharted",
+      "precio": "66.66",
+      "descripcion": "Descripcion 1",
+      "id": "a4fbfc32-3416-4e9a-becc-cb4dcd3e8b9f"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/41/7e/bb/417ebb86fa98c55b0aa09a6a1c8bec5b.jpg",
+      "categoria": "Diversos",
+      "nombreProducto": "Control Ps5 Negro",
+      "precio": "44.44",
+      "descripcion": "Descripcion 1",
+      "id": "a3821d50-8736-4988-b3d1-7a3eb9a3f2f7"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/af/81/dd/af81dd4ea38da973cd77471b7d208abb.jpg",
+      "categoria": "Diversos",
+      "nombreProducto": "Control Xbox Serie x Fifa",
+      "precio": "444.44",
+      "descripcion": "Descripcion 1",
+      "id": "0ff73041-516f-4f72-9a74-1f0c26b3897b"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/84/9e/68/849e68555ce8733df97eebe167f3c77a.jpg",
+      "categoria": "Diversos",
+      "nombreProducto": "Control Xbox Golden",
+      "precio": "22.22",
+      "descripcion": "Descripcion 1",
+      "id": "f7fc981d-b1e5-45d2-9f76-29fd7a86d930"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/45/bb/3f/45bb3faa8621f68f3a0cf92bc69fe1b8.jpg",
+      "categoria": "Diversos",
+      "nombreProducto": "Silla Blanca Gamer",
+      "precio": "222.22",
+      "descripcion": "Descripcion 1",
+      "id": "af9c2e49-33c6-473f-afc9-cf14a5a15463"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/f6/c9/8e/f6c98ec922bc609e2dce3ac17fd1e7b8.jpg",
+      "categoria": "Diversos",
+      "nombreProducto": "Silla Batman Gamer",
+      "precio": "66.66",
+      "descripcion": "Descripcion 1",
+      "id": "d3ecd667-8ebd-445b-8844-01a20a1cf2a6"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/48/50/4d/48504d65f8ed9525ad7aed981a623158.jpg",
+      "categoria": "Diversos",
+      "nombreProducto": "Mouse Gamer",
+      "precio": "666.66",
+      "descripcion": "Descripcion 1",
+      "id": "7b3c2432-f2a5-44b9-b2dc-66020a805167"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/3a/82/3e/3a823ede5838d6bd085dfc3c19e22153.jpg",
+      "categoria": "Diversos",
+      "nombreProducto": "Control Ps5 Akatsuki",
+      "precio": "4444.44",
+      "descripcion": "Descripcion 1",
+      "id": "763b11ce-10b9-4fc8-aecd-1960156f4ec5"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/c9/bc/ce/c9bcce6e3455fdc21336f7b4f9b2271d.jpg",
+      "categoria": "Diversos",
+      "nombreProducto": "Mouse Gamer",
+      "precio": "2222.22",
+      "descripcion": "Descripcion 1",
+      "id": "96b1fb64-2ee2-4bd9-a875-63c8cd3537f1"
+    },
+    {
+      "url": "https://i.pinimg.com/564x/0a/bd/b7/0abdb7dc9c7d3c69629fc0d9fa31c7b4.jpg",
+      "categoria": "Diversos",
+      "nombreProducto": "Teclado Gamer",
+      "precio": "6666.66",
+      "descripcion": "Descripcion 1",
+      "id": "d8fde3ad-58c9-477f-a00c-fd29f5aecb42"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8&w=1000&q=80",
+      "categoria": "Diversos",
+      "nombreProducto": "Cubos",
+      "precio": "444.44",
+      "descripcion": "Cubos magicos",
+      "id": "94c843fd-543d-4715-820d-568cfeaad988"
+    }
+  ]
+}

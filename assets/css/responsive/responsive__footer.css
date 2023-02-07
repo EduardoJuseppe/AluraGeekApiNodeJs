@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) and (max-width: 1399px){
+    .divLogoTexto{
+        flex-direction: column;
+        gap: initial;
+    }
+    .divTextoRodapie{
+        height: 100%;
+    }
+    .btnEnviar{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+    #containerRodapie{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .divLogoTexto{
+        width: 100%;
+        flex-direction: column;
+        gap: initial;
+        justify-content: center;
+        align-items: center;
+    }
+    .divTextoRodapie{
+        padding-right: initial;
+        width: 100%;
+        text-align: center;
+    }
+    .btnEnviar{
+        width: 35%;
+    }
+    .divFormularioRodapie{
+        width: 100%;
+    }
+    .input{
+        height: 3rem;
+    }
+    .input-label{
+        top: 1.175rem;
+    }
+    .input:focus{
+        font-size: 1rem;
+    }
+    .input-label {
+        font-size: 1.15rem;
+    }
+    .input::placeholder {
+        font-size: 0.5rem;
+    }
+    .input:not(:placeholder-shown) + .input-label,
+    .input:focus + .input-label {
+        font-size: 0.775rem;
+    }
+    .textarea-label {
+        font-size: 1.15rem;
+      }
+}

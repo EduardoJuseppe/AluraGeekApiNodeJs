@@ -1,0 +1,62 @@
+@media screen and (min-width: 768px) and (max-width: 1399px){
+    .contenidoBanner{
+        gap: 0.75rem;
+        
+    }
+    #tituloBanner{
+        font-size: 2.5rem;
+    }
+    #labelBanner{
+        font-size: 1rem;
+    }
+    #btnVerConsolas{
+        width: 35%;
+        padding: 0.45rem 0;
+    }
+    .imgBanner{
+        height: 25vh;
+    }
+    .card{
+        width: calc(24.4% - 2px);
+    }
+    h3{
+        font-size: 0.95rem;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+    .contenidoBanner{
+        gap: 0.5rem;
+    }
+    #tituloBanner{
+        font-size: 1rem;
+    }
+    #labelBanner{
+        font-size: 0.75rem;
+    }
+    #btnVerConsolas{
+        font-size: 0.65rem;
+        width: 35%;
+        padding: 0.25rem 0;
+    }
+    .imgBanner{
+        height: 15vh;
+    }
+    .card{
+        width: calc(49.5% - 2px);
+    }
+    h3{
+        font-size: 0.95rem;
+    }
+    #labelProductos{
+        font-size: 1.35rem;
+    }
+    .divTituloBtnAgregar{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #btnEnviarAgregarProducto{
+        padding: 0.75rem 1.45rem;
+    }
+}

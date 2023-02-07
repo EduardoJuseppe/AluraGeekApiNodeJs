@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px) and (max-width: 1399px){
+    #divImgProductoIndividual{
+        height: auto;
+    }
+    #labelTituloProducto{
+        font-size: 2rem;
+    }
+    .precioProductoIndividual{
+        font-size: 1.05rem;
+    }
+    .descripcionProductoIndividual{
+        font-size: 1.05rem;
+    }
+    .card{
+        width: calc(24.4% - 2px);
+    }
+    h3{
+        font-size: 0.95rem;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+    #divProductoIndividual{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #divImgProductoIndividual{
+        width: 100%;
+        height: auto;
+    }
+    #divContenidoProductoIndividual{
+        width: 85%;
+        padding-left: 0rem;
+        padding-top: 1rem;
+    }
+    #labelTituloProducto{
+        font-size: 1.35rem;
+    }
+    .precioProductoIndividual{
+        font-size: 0.95rem;
+    }
+    .descripcionProductoIndividual{
+        font-size: 0.95rem;
+    }
+    .card{
+        width: calc(49.5% - 2px);
+    }
+}

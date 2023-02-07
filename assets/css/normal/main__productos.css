@@ -1,0 +1,69 @@
+main{
+    height: auto;
+    padding-bottom: 4rem;
+}
+#containerProductos{
+    width: 85%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 3.5rem;
+}
+#divTituloBtnAgregar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+#labelProductos{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.25rem;
+
+}
+#btnEnviarAgregarProducto{
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    background-color: #2A7AE4;
+    color: #FFF;
+    padding: 1rem 0.75rem;
+}
+#divProductos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: calc(15.93% - 2px);
+    height: 33vh;
+    /* border: 1px solid; */
+    margin-bottom: 2.5rem;
+}
+.divImg{
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid green; */
+}
+.imgCard{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.divIconEditarBorrar{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+.btnIcon{
+    color: white;
+}
+.divContenido{
+    display: flex;
+    width: 100%;
+    height: 13vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
