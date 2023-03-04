@@ -15,6 +15,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="divOscuro"></div>
     <header id="header">
         <nav id="nav">
             <div class="container">
@@ -25,12 +26,16 @@
             </div>
             <div class="container" id="containerBusqueda">
                 <div class="containerBusqueda">
-                    <input class="inputBuscar" type="text" placeholder="¿Qué deseas buscar?">
+                    <input class="inputBuscar" data-tipo="templates" type="text" placeholder="¿Qué deseas buscar?">
                     <div class="btn">
                         <i class="fa fa-search"></i>
                     </div>
+                    <div id='divBusquedas' class="contenidoBusqueda busquedaNone">
+                        
+                    </div>
                 </div>              
-            </div>      
+                
+            </div>       
         </nav>
     </header>
     <main class="main">
@@ -87,5 +92,6 @@
     <script src="../js/header/header_index.js"></script>
     <script type="module" src="../js/validarInputs/app2.js"></script>
     <script type="module" src="../js/controllers/productoIndividual.controller.js"></script>
+    <script type="module" src="../js/controllers/busqueda.controller.js"></script>
 </body>
 </html>

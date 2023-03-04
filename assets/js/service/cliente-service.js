@@ -34,7 +34,7 @@ const detalleCliente = (id) => {
 };
 
 const buscarProducto = (palabra) => {
-  return fetch(`http://localhost:3000/productos?nombreProducto_like=${palabra}`).then((respuesta) =>
+  return fetch(`https://node-tutorial-production.up.railway.app/getlike/${palabra}`).then((respuesta) =>
     respuesta.json()
   );
 };

@@ -3,6 +3,7 @@ export function valida(input) {
     if (validadores[tipoDeInput]) {
       validadores[tipoDeInput](input);
     }
+    console.log(input.validity.valid);
     if(input.validity.valid){
       input.parentElement.classList.remove("input-container--invalid");
       input.parentElement.querySelector(".input-message-error").innerHTML = "";
@@ -62,9 +63,9 @@ function mostrarMensajeDeError(tipoDeInput, input) {
   let mensaje = "";
   tipoDeErrores.forEach((error) => {
     if (input.validity[error]) {
-      // console.log(tipoDeInput, error);
-      // console.log(input.validity[error]);
-      // console.log(mensajesDeError[tipoDeInput][error]);
+      console.log(tipoDeInput, error);
+      console.log(input.validity[error]);
+      console.log(mensajesDeError[tipoDeInput][error]);
       mensaje = mensajesDeError[tipoDeInput][error];
     }
   });

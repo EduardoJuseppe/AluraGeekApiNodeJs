@@ -16,21 +16,21 @@ const validarAdmin = (e) =>{
         setTimeout(() => {
             divBtnEntrar.classList.remove("input-container--invalid");
             divBtnEntrar.querySelector(".input-message-error").innerHTML = "";
-          }, "2000")
+        }, "2000")
     }else if(email.value == ''){
         divBtnEntrar.classList.add("input-container--invalid");
         divBtnEntrar.querySelector(".input-message-error").innerHTML = "Ingresar correo";
         setTimeout(() => {
             divBtnEntrar.classList.remove("input-container--invalid");
             divBtnEntrar.querySelector(".input-message-error").innerHTML = "";
-          }, "2000")
+        }, "2000")
     }else if(password.value == ''){
         divBtnEntrar.classList.add("input-container--invalid");
         divBtnEntrar.querySelector(".input-message-error").innerHTML = "Ingresar password";
         setTimeout(() => {
             divBtnEntrar.classList.remove("input-container--invalid");
             divBtnEntrar.querySelector(".input-message-error").innerHTML = "";
-          }, "2000")
+        }, "2000")
     }else{
         login(email.value,password.value);     
     }
