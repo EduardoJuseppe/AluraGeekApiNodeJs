@@ -43,18 +43,16 @@ const validarAdmin = (e) =>{
 // Update   -   PUT / PATCH
 // Delete   -   DELETE
 
-const login = (correo,contra) =>{
-    let sesion = true;
+const login = (email,password) =>{
     clientServices.ListaClientes().then((data) => {
-        data.forEach(({ email, password }) => {
-            console.log(email);
-            console.log(password);
-            if(email == correo && password == contra){
-                sesion=false;
-                window.location.href = "./iniciar_sesion.html";
-            }
-        });
-        if(sesion){
+        // console.log(data[0].email);
+        // console.log(data[0].password);
+        console.log(data);
+        if(data[0].email == email && data[0].password == password){
+            localStorage.setItem('admin', JSON.stringify(true));
+            window.location.href = "./iniciar_sesion.html";
+        }
+        else{
             divBtnEntrar.classList.add("input-container--invalid");
             divBtnEntrar.querySelector(".input-message-error").innerHTML = "Credenciales Incorrectas";
             setTimeout(() => {
@@ -65,5 +63,7 @@ const login = (correo,contra) =>{
         
     }).catch((error) => alert("Ocurrio un error"));
 }
+
+
 
 btnEntrar.addEventListener('click',validarAdmin);

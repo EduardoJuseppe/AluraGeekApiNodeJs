@@ -180,6 +180,8 @@ header{
     display: flex;
     z-index: 1;
 }
-
+#imgLogOut{
+    max-width: 3.5vh;
+}
 
 
