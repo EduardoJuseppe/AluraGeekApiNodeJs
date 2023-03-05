@@ -66,7 +66,7 @@ const imgLogOut = document.getElementById('imgLogOut');
 
 imgLogOut.addEventListener('click', () =>{
     localStorage.removeItem("admin");
-    window.location.href = "../../index.html";
+    window.location.href = "./cerrar_sesion.html";
 });
 
 clientServices.ListaProductos().then((data) => {

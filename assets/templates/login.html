@@ -17,6 +17,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="divOscuro"></div>
     <header id="header">
         <nav id="nav">
             <div class="container">
@@ -27,9 +28,12 @@
             </div>
             <div class="container" id="containerBusqueda">
                 <div class="containerBusqueda">
-                    <input class="inputBuscar" type="text" placeholder="¿Qué deseas buscar?">
+                    <input class="inputBuscar" data-tipo="templates" type="text" placeholder="Buscar Productos">
                     <div class="btn">
                         <i class="fa fa-search"></i>
+                    </div>
+                    <div id='divBusquedas' class="contenidoBusqueda busquedaNone">
+                        
                     </div>
                 </div>              
             </div>      
@@ -42,7 +46,7 @@
                 <input name="email" id="email" class="input" type="email" placeholder="Email" required data-tipo="email">
                 <label class="input-label" for="email">Escriba su correo</label>
                 <span class="input-message-error">Este campo no es valido</span>
-             </div>
+            </div>
             <div class="input-container">
                 <input name="password" id="password" class="input" type="password" placeholder="Contraseña" required data-tipo="password" >
                 <label class="input-label" for="password">Escriba su contraseña</label>
@@ -103,5 +107,6 @@
     <script src="../js/header/header.js"></script>
     <!-- <script src="../js/admin.js"></script>-->
     <script type="module" src="../js/controllers/login.controller.js"></script>
+    <script type="module" src="../js/controllers/busqueda.controller.js"></script>
 </body>
 </html>

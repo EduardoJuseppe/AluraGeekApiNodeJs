@@ -5,6 +5,9 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 767px){
+    .inputBuscar::placeholder{
+        font-size: 0.75rem;
+    }
     .textoAluraGeek{
         font-size: 1rem;
     }

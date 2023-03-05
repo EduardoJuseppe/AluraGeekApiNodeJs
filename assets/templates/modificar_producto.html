@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <div class="divOscuro"></div>
     <header id="header">
         <nav id="nav">
             <div class="container">
@@ -31,9 +32,12 @@
             </div>
             <div class="container" id="containerBusqueda">
                 <div class="containerBusqueda">
-                    <input class="inputBuscar" type="text" placeholder="¿Qué deseas buscar?">
+                    <input class="inputBuscar" data-tipo="templates" type="text" placeholder="¿Qué deseas buscar?">
                     <div class="btn">
                         <i class="fa fa-search"></i>
+                    </div>
+                    <div id='divBusquedas' class="contenidoBusqueda busquedaNone">
+                        
                     </div>
                 </div>
                 <a href="./productos.html"><button id="btnAdmin">Menu Administrador</button></a>
@@ -123,14 +127,15 @@
     </footer>
     <script src="https://kit.fontawesome.com/acf9a5f092.js" crossorigin="anonymous"></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
-      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+    integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
     ></script>
     <script type="module" src="../js/validarInputs/app2.js"></script>
-    <script src="../js/header/header_agregar.js"></script>
+    <script src="../js/header/header_index.js"></script>
     <script type="module" src="../js/controllers/modificar-controller.js"></script>
+    <script type="module" src="../js/controllers/busqueda.controller.js"></script>
 </body>
 
 </html>

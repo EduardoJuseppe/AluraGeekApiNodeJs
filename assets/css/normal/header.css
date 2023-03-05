@@ -152,15 +152,15 @@ header{
     transform: rotate(-360deg);
 }
 #btnLogin{
-    padding: 1rem 0;
-    width: 12vw;
+    padding: 1rem 0.5rem;
+    width: auto;
     border: 1px solid #2A7AE4;
     background: transparent;
     color: #2A7AE4;
 }
 #btnAdmin{
-    padding: 1rem 0;
-    width: 20vw;
+    padding: 1rem 0.5rem;
+    width: auto;
     border: 1px solid #2A7AE4;
     background: transparent;
     color: #2A7AE4;

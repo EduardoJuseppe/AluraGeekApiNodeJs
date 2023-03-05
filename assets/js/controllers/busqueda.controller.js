@@ -13,6 +13,7 @@ const crearElementos = (nombreProducto,id) =>{
   labelProductoBusqueda.textContent = nombreProducto;
   divHover.appendChild(labelProductoBusqueda);
   divBusquedas.appendChild(divHover);
+  
   if(inputBuscar.dataset.tipo == 'templates'){
     divHover.addEventListener('click',()=>{
       window.location.href = `./producto__individual.html?id=${id}`;

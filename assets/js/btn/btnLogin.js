@@ -4,7 +4,7 @@ const validarAdmin = () =>{
     const btnLogin2 = document.getElementById('btnLogin');
     if (localStorage){
         if(localStorage.getItem('admin') !== undefined && localStorage.getItem('admin'))
-        btnLogin2.textContent = 'Menu';
+        btnLogin2.textContent = 'Menu Administrador';
         else      
         btnLogin2.textContent = 'Login'; 
     }
