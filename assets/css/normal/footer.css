@@ -1,7 +1,12 @@
 #fondoAzul{
     width: 100%;
-    background-color: #EAF2FD;
     padding: 2.5rem 0;
+}
+.fondoAzul{
+    background-color: #EAF2FD;
+}
+.fondoAzulOscuro{
+    background-color: #4d4d4ddf;
 }
 #containerRodapie{
     width: 85%;
@@ -31,6 +36,12 @@
     align-items: center;
     justify-content: center;
     padding: 1rem 0;
+}
+.fondoGris{
+    background-color: #FFFFFF;
+}
+.fondoGrisOscuro{
+    background-color: #4d4d4d;
 }
 .divFormularioRodapie{
     width: 50%;

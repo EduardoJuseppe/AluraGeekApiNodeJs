@@ -1,13 +1,16 @@
 const btnLogin = document.getElementById('btnLogin');
 
-const validarAdmin = () =>{
+const validarLocalStorage = () =>{
     const btnLogin2 = document.getElementById('btnLogin');
-    if (localStorage){
-        if(localStorage.getItem('admin') !== undefined && localStorage.getItem('admin'))
+
+    if(localStorage.getItem('admin') !== undefined && localStorage.getItem('admin'))
         btnLogin2.textContent = 'Menu Administrador';
-        else      
-        btnLogin2.textContent = 'Login'; 
-    }
+    else      
+        btnLogin2.textContent = 'Login';
+            
+    if(localStorage.getItem('temaOscuro') === null)
+        localStorage.setItem("temaOscuro",'white');
+    
 };
 
 const redireccionarLogin = () =>{
@@ -17,5 +20,5 @@ const redireccionarLogin = () =>{
     window.location.href = "assets/templates/productos.html";
 };
 
-validarAdmin();
+validarLocalStorage();
 btnLogin.addEventListener('click',redireccionarLogin);

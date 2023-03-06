@@ -3,13 +3,26 @@ export function valida(input) {
     if (validadores[tipoDeInput]) {
       validadores[tipoDeInput](input);
     }
-    console.log(input.validity.valid);
+    // console.log(input.validity.valid);
     if(input.validity.valid){
-      input.parentElement.classList.remove("input-container--invalid");
-      input.parentElement.querySelector(".input-message-error").innerHTML = "";
+      if(localStorage.getItem('temaOscuro') === "white"){
+        input.parentElement.classList.remove("input-container--invalid");
+        input.parentElement.querySelector(".input-message-error").innerHTML = "";
+      }else{
+        input.parentElement.classList.remove("input-container--invalid2");
+        input.parentElement.querySelector(".input-message-error").innerHTML = "";
+      }
+      
     }else{
-      input.parentElement.classList.add('input-container--invalid');
-      input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
+      if(localStorage.getItem('temaOscuro') === "white"){
+        input.parentElement.classList.add('input-container--invalid');
+        input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
+      }else{
+        input.parentElement.classList.add('input-container--invalid2');
+        input.parentElement.querySelector(".input-message-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
+      }
+
+      
     }
   }
   
@@ -63,9 +76,9 @@ function mostrarMensajeDeError(tipoDeInput, input) {
   let mensaje = "";
   tipoDeErrores.forEach((error) => {
     if (input.validity[error]) {
-      console.log(tipoDeInput, error);
-      console.log(input.validity[error]);
-      console.log(mensajesDeError[tipoDeInput][error]);
+      // console.log(tipoDeInput, error);
+      // console.log(input.validity[error]);
+      // console.log(mensajesDeError[tipoDeInput][error]);
       mensaje = mensajesDeError[tipoDeInput][error];
     }
   });

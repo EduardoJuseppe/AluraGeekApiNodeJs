@@ -64,19 +64,30 @@
   border-radius: 7px;
 }
 
-/* .input-container--invalid .input-label {
-  color: var(--warning-color);
-} */
+.input-container--invalid2 {
+  margin-bottom: 0.5rem;
+}
+
+.input-container--invalid2 .input {
+  border-radius: 7px;
+}
 
 .input-message-error {
   display: none;
 }
 
 .input-container--invalid .input-message-error {
-  color: var(--warning-color);
+  color: red;
   display: block;
   margin-top: 0.5rem;
-  padding-left: 0.5rem;
+  /* padding-left: 0.5rem; */
+}
+
+.input-container--invalid2 .input-message-error {
+  color: white;
+  display: block;
+  margin-top: 0.5rem;
+  /* padding-left: 0.5rem; */
 }
 
 .textarea {

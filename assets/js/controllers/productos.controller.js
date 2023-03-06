@@ -44,6 +44,9 @@ const crearCard = (url,nombreProducto,precio,id) =>{
     const identificador = document.createElement('label');
     identificador.textContent = `# ${id}`;
     divContenido.appendChild(identificador);
+    tituloContenido.classList.add('letrasColorNegro');
+    valor.classList.add('letrasColorNegro');
+    identificador.classList.add('letrasColorNegro');
     return card;
 };
 /* <div class="card">

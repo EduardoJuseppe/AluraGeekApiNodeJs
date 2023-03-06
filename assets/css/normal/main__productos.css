@@ -6,7 +6,7 @@ main{
     width: 85%;
     height: 90%;
     margin: 0 auto;
-    margin-top: 3.5rem;
+    padding-top: 3.5rem;
 }
 #divTituloBtnAgregar{
     width: 100%;
@@ -66,4 +66,10 @@ main{
     height: 13vh;
     flex-direction: column;
     justify-content: space-around;
+}
+.letrasColorNegro{
+    color: black;
+}
+.letrasColorClaro{
+    color: white;
 }

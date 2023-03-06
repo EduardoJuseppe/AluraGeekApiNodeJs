@@ -16,14 +16,15 @@
 
     <title>Document</title>
 </head>
-<body>
+<body id="body" class="bodyClaro">
     <div class="divOscuro"></div>
-    <header id="header">
+    <header id="header" class="headerClaro">
         <nav id="nav">
             <div class="container">
                 <img class="imgControl" src="../img/control.png"/>
                 <a href="../../index.html"><div id="divAluraGeek">
-                    <label class="textoAluraGeek">Alura</label><label class="textoAluraGeek">Geek</label>
+                    <label class="textoAluraGeek">Alura</label>
+                    <label class="textoAluraGeek letrasColorNegro">Geek</label>
                 </div></a>
             </div>
             <div class="container" id="containerBusqueda">
@@ -36,14 +37,17 @@
                         
                     </div>
                 </div>
-                <img id='imgLogOut' src="../img/logout.png"/>             
+                <div class="divLogMoon">
+                    <img id='imgLogOut' src="../img/logout.png"/> 
+                    <img id='imgMoonBlack' src="../img/creciente.png"/>  
+                </div>
             </div>      
         </nav>
     </header>
-    <main>
+    <main id="main" class="mainClaro">
         <div id="containerProductos">
             <div id="divTituloBtnAgregar">
-                <label id="labelProductos">Todos los Productos</label>
+                <label id="labelProductos" class="letrasColorNegro">Todos los Productos</label>
                 <a href="./agregar__productos.html"><button id="btnEnviarAgregarProducto">Agregar Producto</button></a>
             </div>
             <div id="divProductos">
@@ -55,27 +59,28 @@
     </main>
 
     <footer id="footer">
-        <div id="fondoAzul">
+        <div id="fondoAzul" class="fondoAzul">
             <div id="containerRodapie"> 
                 <div class="divLogoTexto">
                     <div class="divLogoRodapie">
                         <img class="imgControl" src="../img/control.png"/>
                         <div id="divAluraGeek">
-                            <label class="textoAluraGeek">Alura</label><label class="textoAluraGeek">Geek</label>
+                            <label class="textoAluraGeek">Alura</label>
+                            <label class="textoAluraGeek letrasColorNegro">Geek</label>
                         </div>
                     </div>
                     <div class="divTextoRodapie">
-                        <label for="" class="textoRodapie">Quienes somos</label>
-                        <label for="" class="textoRodapie">Politica de privacidad</label>
-                        <label for="" class="textoRodapie">Programa de fidelidad</label>
-                        <label for="" class="textoRodapie">Nuestras Tiendas</label>
-                        <label for="" class="textoRodapie">Quiero ser franquiciado</label>
-                        <label for="" class="textoRodapie">Anuncie aqui</label>
+                        <label for="" class="textoRodapie letrasColorNegro">Quienes somos</label>
+                        <label for="" class="textoRodapie letrasColorNegro">Politica de privacidad</label>
+                        <label for="" class="textoRodapie letrasColorNegro">Programa de fidelidad</label>
+                        <label for="" class="textoRodapie letrasColorNegro">Nuestras Tiendas</label>
+                        <label for="" class="textoRodapie letrasColorNegro">Quiero ser franquiciado</label>
+                        <label for="" class="textoRodapie letrasColorNegro">Anuncie aqui</label>
                     </div>
                 </div>
                 <div class="divFormularioRodapie">
                     <form action="registro_concluido.html" id="form" class="form">
-                        <label>Habla con nosotros</label>
+                        <label class='letrasColorNegro'>Habla con nosotros</label>
                         <div class="input-container">
                             <input name="name" id="inputNombre" class="input" type="text" placeholder="Asunto" required pattern="[\s\S]{0,50}" data-tipo="nombre">
                             <label class="input-label" for="name">Nombre</label>
@@ -92,9 +97,9 @@
                 </div>
             </div>
         </div>
-        <div id="fondoGris">
-            <label>Desarrollado por Eduardo Larios Juseppe</label>
-            <label>2022</label>
+        <div id="fondoGris" class="fondoGris">
+            <label class='letrasColorNegro' >Desarrollado por Eduardo Larios Juseppe</label>
+            <label class='letrasColorNegro' >2022</label>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/acf9a5f092.js" crossorigin="anonymous"></script>
@@ -102,5 +107,6 @@
     <script type="module" src="../js/header/header_index.js"></script>
     <script type="module" src="../js/controllers/productos.controller.js"></script>
     <script type="module" src="../js/controllers/busqueda.controller.js"></script>
+    <script src="../js/btn/bthMoon.js"></script>
 </body>
 </html>
