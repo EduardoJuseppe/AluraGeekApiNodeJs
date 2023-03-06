@@ -182,14 +182,23 @@ const crearCard = (url,nombre,precio,id) =>{
     const verProducto = document.createElement('button');
     verProducto.textContent = "Ver producto";
     verProducto.classList.add('labelVerProducto');
-    verProducto.classList.add('indicadoresAzul');
+    
     divContenido.appendChild(verProducto);
     verProducto.addEventListener('click',()=>{
         window.location.href = `assets/templates/producto__individual.html?id=${id}`;
     });
-    tituloContenido.classList.add('letrasColorNegro');
-    valor.classList.add('letrasColorNegro');
-    verProducto.classList.add('letrasColorNegro');
+    if(localStorage.getItem('temaOscuro')=='black'){
+        tituloContenido.classList.add('letrasColorClaro');
+        valor.classList.add('letrasColorClaro');
+        verProducto.classList.add('letrasColorClaro');
+        verProducto.classList.add('indicadoresAmarillo');
+    }else{
+        tituloContenido.classList.add('letrasColorNegro');
+        valor.classList.add('letrasColorNegro');
+        verProducto.classList.add('letrasColorNegro');
+        verProducto.classList.add('indicadoresAzul');
+    }
+    
     // const modificar = document.createElement('a');
     // modificar.setAttribute('href',`assets/templates/producto__individual.html?id=${id}`);
     // modificar.appendChild(verProducto);

@@ -4,6 +4,9 @@ const validarLocalStorage = () =>{
     const btnLogin2 = document.getElementById('btnLogin');
 
     if(localStorage.getItem('admin') !== undefined && localStorage.getItem('admin'))
+        if(screen.width <= 375)
+        btnLogin2.textContent = 'Menu';
+        else
         btnLogin2.textContent = 'Menu Administrador';
     else      
         btnLogin2.textContent = 'Login';

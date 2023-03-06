@@ -132,3 +132,6 @@ main{
     flex-direction: column;
     justify-content: space-around;
 }
+.flechaClara{
+    color: white;
+}

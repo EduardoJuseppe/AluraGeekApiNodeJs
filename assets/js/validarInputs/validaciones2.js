@@ -35,7 +35,7 @@ export function valida(input) {
   
   const mensajesDeError = {
     nombre:{
-      valueMissing: "El campo url no puede estar vacío",
+      valueMissing: "El campo nombre no puede estar vacío",
       patternMismatch: "No tiene formato de url de imagen",
     },
     email: {

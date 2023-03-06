@@ -17,3 +17,11 @@ form.addEventListener("submit", (evento) => {
         })
         .catch((err) => console.log(err));
 });
+
+const modificarBoton = () =>{
+    const btnAdmin = document.getElementById('btnAdmin');
+    if(screen.width <= 375)
+        btnAdmin.textContent = 'Menu';
+};
+
+modificarBoton();

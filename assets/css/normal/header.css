@@ -181,9 +181,15 @@ header{
 #btnAdmin{
     padding: 1rem 0.5rem;
     width: auto;
-    border: 1px solid #2A7AE4;
     background: transparent;
+}
+.btnAdminAzul{
     color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+.btnAdminClaro{
+    color: rgb(255, 249, 76);
+    border: 1px solid rgb(255, 249, 76);
 }
 .containerBusqueda:hover > #btnLogin{
     border: 1px solid black;

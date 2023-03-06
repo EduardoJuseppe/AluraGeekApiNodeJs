@@ -1,6 +1,3 @@
-
-
-
 const calcularNav = () =>{
     const style = document.documentElement.style
     let container = document.getElementById('containerBusqueda');

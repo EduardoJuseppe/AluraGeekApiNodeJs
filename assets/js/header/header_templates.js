@@ -15,7 +15,7 @@ const aparecerBoton = (e) =>{
             console.log('aparecer');
             const btnAdmin = document.getElementById('btnAdmin');
             btnAdmin.style.display = "block";
-          }, "700")    
+        }, "700")    
     }
 };
 

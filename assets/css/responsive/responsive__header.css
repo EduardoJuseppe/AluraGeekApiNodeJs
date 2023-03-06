@@ -2,6 +2,9 @@
     .textoAluraGeek{
         font-size: 1.5rem;
     }
+    .divLogMoon{
+        gap: 0.75rem;
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 767px){
@@ -18,10 +21,10 @@
         padding: 0.25rem 1.5rem;
     }
     #btnLogin{
-        padding: 0.25rem 0;
+        padding: 0.25rem 0.25rem;
     }
     #btnAdmin{
-        width: 25vw;
+        padding: 0.5rem 0.25rem;
     }
     .inputBuscar{
         padding: 0.5rem 0.9rem;
@@ -31,6 +34,9 @@
     }
     .divHover{
         padding: 0.25rem;
+    }
+    .divLogMoon{
+        gap: 0.5rem;
     }
 }
     
