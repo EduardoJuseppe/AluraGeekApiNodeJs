@@ -27,6 +27,14 @@ const crearCard = (url,nombreProducto,precio,id) =>{
   verProducto.addEventListener('click',()=>{
       window.location.href = `./producto__individual.html?id=${id}`;
   });
+  if(localStorage.getItem('temaOscuro') === 'black'){
+    tituloContenido.classList.add('letrasColorClaro');
+    valor.classList.add('letrasColorClaro');
+    verProducto.classList.add('letrasColorClaro');
+    verProducto.classList.add('indicadoresAmarillo');
+  }else{
+    verProducto.classList.add('indicadoresAzul');
+  }
   // const modificar = document.createElement('a');
   // modificar.setAttribute('href',`assets/templates/producto__individual.html?id=${id}`);
   // modificar.appendChild(verProducto);
@@ -57,6 +65,10 @@ const randomProductosSimilares = (productoFiltrado) =>{
   const divCards = document.createElement('div');
   divCards.classList.add('divCards');
   containerProductos.appendChild(divCards);
+
+  if(localStorage.getItem('temaOscuro') === 'black'){
+    labelProductos.classList.add('letrasColorClaro');
+  }
   // console.log(containerProductos);
   for(let x=0;x<numeroCards;x++){
     if(productoFiltrado[x].url != undefined && productoFiltrado[x].url != null){
@@ -66,12 +78,8 @@ const randomProductosSimilares = (productoFiltrado) =>{
     }
     else{
       console.log('error undefined');
-    }
-    
+    }  
   }
-  
-   
-  
 }
 
 const productoSimilares = (categoriaFiltrada,idEncontrada) =>{
@@ -161,6 +169,13 @@ const obtenerInformacion = async () => {
         descripcionProductoIndividual.textContent = descripcion;
         descripcionProductoIndividual.classList.add('descripcionProductoIndividual');
         divContenidoProductoIndividual.appendChild(descripcionProductoIndividual);
+
+        if(localStorage.getItem('temaOscuro') === 'black'){
+          tituloProductoIndividual.classList.add('letrasColorClaro');
+          precioProductoIndividual.classList.add('letrasColorClaro');
+          descripcionProductoIndividual.classList.add('letrasColorClaro');
+        }
+
         productoSimilares(categoria,sku);
       } else {
         throw new Error();

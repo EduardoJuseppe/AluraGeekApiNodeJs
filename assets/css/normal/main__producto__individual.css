@@ -39,6 +39,9 @@ main{
     font-size: 1.15rem;
 }
 #containerProductos{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     width: 85%;
     height: 90%;
     margin: 0 auto;
@@ -94,9 +97,17 @@ main{
 .labelVerTodo, .iconFlecha, .labelVerProducto{
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    color: #2A7AE4;
     font-weight: bold;
 }
+
+.indicadoresAzul{
+    color: #2A7AE4;
+}
+
+.indicadoresAmarillo{
+    color: rgb(255, 249, 76);
+}
+
 .labelVerProducto{
     display: flex;
     padding: 0;
