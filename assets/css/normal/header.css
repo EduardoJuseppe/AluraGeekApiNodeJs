@@ -168,9 +168,15 @@ header{
 #btnLogin{
     padding: 1rem 0.5rem;
     width: auto;
-    border: 1px solid #2A7AE4;
     background: transparent;
+}
+.btnLoginAzul{
     color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+}
+.btnLoginClaro{
+    color: rgb(255, 249, 76);
+    border: 1px solid rgb(255, 249, 76);
 }
 #btnAdmin{
     padding: 1rem 0.5rem;
@@ -207,5 +213,10 @@ header{
 #imgMoonWhite{
     max-width: 3.5vh;
 }
-
+.letrasColorNegro{
+    color: black;
+}
+.letrasColorClaro{
+    color: white;
+}
 

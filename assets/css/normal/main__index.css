@@ -54,6 +54,11 @@ main{
     font-family: 'Raleway', sans-serif;
     font-size: 2.25rem;
 }
+.labelProductosClaro{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.25rem;
+    color: #FFF;
+}
 .divVerTodoFlecha{
     display: flex;
     gap: 0.75rem;
@@ -61,9 +66,17 @@ main{
 .labelVerTodo, .iconFlecha, .labelVerProducto{
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    color: #2A7AE4;
     font-weight: bold;
 }
+
+.indicadoresAzul{
+    color: #2A7AE4;
+}
+
+.indicadoresAmarillo{
+    color: rgb(255, 249, 76);
+}
+
 .labelVerProducto{
     display: flex;
     padding: 0;

@@ -109,6 +109,6 @@ const cambiarTema = () =>{
 
 setTimeout(() => {
     cambiarTema();
-}, "200");
+}, "300");
 
 imgMoonBlack.addEventListener('click',temaOscuro);

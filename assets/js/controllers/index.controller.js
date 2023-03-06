@@ -182,10 +182,14 @@ const crearCard = (url,nombre,precio,id) =>{
     const verProducto = document.createElement('button');
     verProducto.textContent = "Ver producto";
     verProducto.classList.add('labelVerProducto');
+    verProducto.classList.add('indicadoresAzul');
     divContenido.appendChild(verProducto);
     verProducto.addEventListener('click',()=>{
         window.location.href = `assets/templates/producto__individual.html?id=${id}`;
     });
+    tituloContenido.classList.add('letrasColorNegro');
+    valor.classList.add('letrasColorNegro');
+    verProducto.classList.add('letrasColorNegro');
     // const modificar = document.createElement('a');
     // modificar.setAttribute('href',`assets/templates/producto__individual.html?id=${id}`);
     // modificar.appendChild(verProducto);
